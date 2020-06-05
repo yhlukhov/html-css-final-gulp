@@ -1,0 +1,61 @@
+/* -------- Meet a Partner -------- */
+
+.partner {
+    margin: 89px auto 0;
+    width: 941px;
+}
+
+.partner__title {
+    font-family: montserrat;
+    font-size: 26px;
+    font-weight: bold;
+    color: #444444;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.partner__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.partner__list_item {
+    width: 221px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.partner__name {
+    margin-top: 17px;
+    text-align: center;
+    font-family: montserrat;
+    font-size: 14px;
+    font-weight: bold;
+    color: #444444;
+}
+
+.partner__about {
+    margin-top: 14px;
+    font-family: roboto-light;
+    font-size: 14px;
+    text-align: center;
+    color: #666666;
+}
+
+.partner__button {
+    display: block;
+    margin: 36px auto 0;
+    width: 176px;
+    height: 36px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 36px;
+    font-family: montserrat;
+    font-weight: bold;
+    font-size: 14px;
+    color: #FF4E50;
+    border: 2px solid #FF4E50;
+    border-radius: 20px;
+}

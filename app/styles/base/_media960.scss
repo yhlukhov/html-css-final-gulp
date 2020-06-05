@@ -1,0 +1,173 @@
+
+// MEDIA SCREEN WIDTH 960
+
+@media screen and (max-width: 960px) {
+    header {
+        background-position: -465px;
+    }
+    
+    .promo__topcontainer {
+        justify-content: space-between;
+    }
+    
+    .promo__logo {
+        width: auto;
+        margin-left: 48px;
+    }
+    
+    .promo__menu {
+        width: auto;
+        margin-right: 50px;
+    }
+    
+    .hiw {
+        width: 748px;
+    }
+    
+    .section__title {
+        font-size: 22px;
+    }
+    
+    .hiw__content_item {
+        width: 236px;
+        height: 400px;
+    }
+    
+    .hiw__content_button {
+        margin-left: 20px;
+    }
+    
+    .hiw__content_title {
+        width: 196px;
+        height: 58px;
+        margin-left: 20px;
+        margin-right: 20px;
+        line-height: 14px;
+        display: flex;
+        align-items: flex-end;
+    }
+    
+    .hiw__content_desc {
+        width: 196px;
+        height: 76px;
+        margin-bottom: 16px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    .step2 .hiw__content_title {
+        height: 29px;
+    }
+    .step2 .hiw__content_desc {
+        height: 57px;
+    }
+    
+    .step1 {
+        background-image: url(../images/w960/Step1.png);
+    }
+    
+    .step2 {
+        background-image: url(../images/w960/Step2.png);
+    }
+    
+    .step3 {
+        background-image: url(../images/w960/Step3.png);
+    }
+    
+    .partner {
+        margin: 95px auto 0;
+        max-width: 492px;
+    }
+    
+    .partner__title {
+        font-size: 22px;
+        margin-bottom: 0px;
+    }
+    
+    .partner__list_item {
+        width: 236px;
+        margin-top: 35px;
+        margin-bottom: 20px;
+    }
+    
+    .partner__about {
+        margin-top: 12px;
+    }
+    
+    .partner__button {
+        margin: 20px auto 0;
+    }
+    
+    .ideas {
+        margin: 95px auto 0;
+        max-width: 748px;
+    }
+    
+    .ideas__content_big {
+        width: 492px;
+    }
+    
+    .ideas__content_small {
+        width: 236px;
+    }
+    
+    .sports {
+        background-image: url(../images/w960/Sports.png);
+    }
+    
+    .health {
+        background-image: url(../images/w960/Healath.png);
+    }
+    
+    .extreme {
+        background-image: url(../images/w960/Extreme.png);
+    }
+    
+    .games {
+        background-image: url(../images/w960/Games.png);
+    }
+    
+    .culture {
+        background-image: url(../images/w960/Culture.png);
+    }
+    
+    .relaxation {
+        background-image: url(../images/w960/Relaxation.png);
+    }
+    
+    .travelling {
+        background-image: url(../images/w960/Travelling.png);
+    }
+    
+    .interests {
+        margin: 95px auto 0;
+    }
+    
+    .footer {
+        margin: 40px auto 0;
+        width: 768px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .footer__title {
+        margin-right: 55px;
+        margin-left: 39px;
+    }
+    
+    .footer__menu {
+        margin-left: 53px;
+        margin-right: 3px;
+        margin-bottom: 20px;
+    }
+    
+    .footer__logo {
+        margin-left: 25px;
+        margin-right: 40px;
+    }
+    
+    .footer__logo_top {
+        margin-bottom: 7px;
+    }
+}
+

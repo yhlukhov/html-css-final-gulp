@@ -1,0 +1,79 @@
+/* ---------- HIW ---------- */
+
+.hiw {
+    margin: 95px auto 0;
+    width: 940px;
+}
+
+.hiw__content {
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.hiw__content_item {
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-size: 100% 100%;
+}
+
+.hiw__content_button {
+    width: 70px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    font-family: montserrat;
+    font-size: 10px;
+    letter-spacing: 2px;
+    color: white;
+    background-color: #FF4E50;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.hiw__content_title {
+    width: 250px;
+    margin-bottom: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-family: montserrat;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.hiw__content_desc {
+    width: 250px;
+    height: 57px;
+    margin-bottom: 21px;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-family: roboto-light;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 14px;
+    color: #E3E3E3;
+    display: flex;
+    align-items: flex-end;
+}
+
+.step1 {
+    background-image: url(../images/Step1.png);
+}
+
+.step2 {
+    background-image: url(../images/Step2.png);
+}
+
+.step3 {
+    background-image: url(../images/Step3.png);
+}
+
+.hiw__separator {
+    width: 20px;
+}

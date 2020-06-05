@@ -1,0 +1,243 @@
+/* MEDIA  SCREEN WIDTH 768 */
+
+@media screen and (max-width: 767px) {
+    header {
+        background-position: -355px;
+    }
+    
+    .promo {
+        display: flex;
+        flex-direction: column;
+        color: white;
+        height: 540px;
+    }
+    
+    .promo__topcontainer {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-top: 20px;
+    }
+    
+    .promo__logo {
+        width: auto;
+        margin: 0;
+        margin-top: 97px;
+    }
+    
+    .promo__menu {
+        width: auto;
+        margin: 0;
+    }
+    
+    .promo__data {
+        width: 281px;
+        margin-top: 26px;
+    }
+    
+    .promo__data_title {
+        font-size: 30px;
+    }
+    
+    .promo__data_desc {
+        font-size: 18px;
+        margin-top: 6px;
+        text-align: center;
+    }
+    
+    .promo__data_button {
+        width: 280px;
+        margin-top: 15px;
+    }
+    
+    .hiw {
+        margin: 35px auto 0;
+        width: 96%;
+    }
+    
+    .section__title {
+        font-size: 22px;
+    }
+    
+    .hiw__content {
+        margin-top: 15px;
+        flex-wrap: wrap;
+    }
+    
+    .hiw__content_item {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    
+    .hiw__content_button {
+        margin-top: 64px;
+    }
+    
+    .hiw__content_title {
+        width: 90%;
+        max-width: 90%;
+        margin-right: 30px;
+    }
+    
+    .hiw__content_desc {
+        width: 90%;
+        max-width: 90%;
+        margin-right: 30px;
+    }
+    
+    .step1 {
+        background-image: url(../images/w768/Step1.png);
+    }
+    
+    .step2 {
+        background-image: url(../images/w768/Step2.png);
+    }
+    
+    .step3 {
+        background-image: url(../images/w768/Step3.png);
+    }
+    
+    .partner {
+        margin: 36px auto 0;
+        max-width: 96%;
+        width: 96%;
+    }
+    
+    .partner__title {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    .partner__list_item {
+        width: 100%;
+        margin-top: 14px;
+        margin-left: 32px;
+        margin-right: 32px;
+        margin-bottom: 16px;
+    }
+    
+    .partner__button {
+        width: auto;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    .ideas {
+        margin: 95px auto 0;
+        max-width: 96%;
+    }
+    
+    .ideas__content_big {
+        width: 100%;
+    }
+    
+    .ideas__content_small {
+        width: 100%;
+    }
+    
+    .sports {
+        background-image: url(../images/w768/Sports.png);
+    }
+    
+    .health {
+        background-image: url(../images/w768/Healath.png);
+    }
+    
+    .extreme {
+        background-image: url(../images/w768/Extreme.png);
+    }
+    
+    .games {
+        background-image: url(../images/w768/Games.png);
+    }
+    
+    .culture {
+        background-image: url(../images/w768/Culture.png);
+    }
+    
+    .relaxation {
+        background-image: url(../images/w768/Relaxation.png);
+    }
+    
+    .travelling {
+        background-image: url(../images/w768/Travelling.png);
+    }
+    
+    .interests {
+        margin: 35px auto 0;
+        width: 96%;
+    }
+    
+    .interests__desc {
+        margin-top: 15px;
+    }
+    
+    .interests__search {
+        width: 96%;
+        margin-top: 15px;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .interests__search_box {
+        width: 100%;
+    }
+    
+    .interests__search_button {
+        width: 100%;
+        margin-top: 10px;
+    }
+    
+    footer {
+        margin-top: 40px;
+        padding-bottom: 22px;
+    }
+    
+    .footer {
+        margin: 21px auto 0;
+        width: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .footer__title {
+        margin: 0;
+    }
+    
+    .footer__menu {
+        margin: 13px auto 0;
+        width: auto;
+        align-items: center;
+    }
+    
+    .footer__menu_title {
+        margin-top: 13px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .footer_nav {
+        margin-top: 11px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .footer__menu_item {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    .footer__logo {
+        margin-top: 14px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .footer__logo_top {
+        margin-bottom: 7px;
+        margin-left: 25px;
+    }
+}

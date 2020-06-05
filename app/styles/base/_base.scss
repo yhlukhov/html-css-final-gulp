@@ -1,0 +1,20 @@
+
+@import url(fonts.css);
+
+body {
+    background-color: #F2F2F2;
+}
+
+.body__container {
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.section__title {
+    font-family: montserrat;
+    font-size: 26px;
+    font-weight: bold;
+    color: #444444;
+    text-align: center;
+}

@@ -1,0 +1,51 @@
+/* ------ Interests -------- */
+
+.interests {
+    margin: 82px auto 0;
+    width: 482px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.interests__desc {
+    margin-top: 43px;
+    font-family: roboto-light;
+    font-size: 18;
+    color: #666666;
+}
+
+.interests__search {
+    width: 100%;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.interests__search_box {
+    width: 299px;
+    height: 40px;
+    font-family: roboto-light;
+    font-size: 14px;
+    border: 1px solid #d4d4d4;
+    border-radius: 3px;
+}
+
+.interests__search_button {
+    width: 172px;
+    height: 40px;
+    background-color: #FF4E50;
+    color: white;
+    border-radius: 20px;
+    font-family: montserrat;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+}
+
+footer {
+    border-top: 2px solid #FF4E50;
+    margin-top: 100px;
+}

@@ -1,0 +1,91 @@
+/* ------- Header ------- */
+
+header {
+    background-image: url(../images/Background.png);
+    background-size: cover;
+}
+
+.promo {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    height: 700px;
+}
+
+.promo__topcontainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.promo__logo {
+    width: 45%;
+    text-align: center;
+    font-family: montserrat;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.promo__menu {
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.promo__menu_login {
+    font-family: montserrat;
+    font-size: 14px;
+}
+
+.promo__menu_signup {
+    width: 86px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: montserrat;
+    font-size: 14px;
+    border: 2px solid white;
+    border-radius: 20px;
+    margin-left: 19px;
+}
+
+.promo__data {
+    width: 470px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 153px auto 0;
+}
+
+.promo__data_title {
+    font-family: montserrat;
+    font-size: 52px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.promo__data_desc {
+    font-family: roboto-light;
+    font-size: 24px;
+    margin-top: 28px;
+    color: #F7F3F2;
+}
+
+.promo__data_button {
+    width: 225px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-family: montserrat;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    background-color: #FF4E50;
+    border-radius: 20px;
+    margin-top: 32px;
+}
